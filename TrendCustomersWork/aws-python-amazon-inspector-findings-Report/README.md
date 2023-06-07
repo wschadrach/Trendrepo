@@ -4,7 +4,7 @@ This script will deploy a lambda function that will run a report of vulnerabilit
 
 Click the below to launch the CloudFormation template.
 
-[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=c1ws-inspector-findings-protection&templateURL=https://cloudone-community.s3.us-east-1.amazonaws.com/latest/Workload-Security/Integration/aws-python-amazon-inspector-integration/templates/c1ws-inspector-findings-template.yaml) 
+[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=Inspector-Findings-Report&templateURL=https://vulnerabilitytestbucket.s3.amazonaws.com/TrendCustomersWork/aws-python-amazon-inspector-findings-Report/templates/vulnerability-report-template.yaml) 
 
 
 
@@ -21,3 +21,4 @@ Click the below to launch the CloudFormation template.
    > **NOTE:**  You need to verify the email you want the report to send to in the AWS console with SES service
 
 6. For more information about cron expression [Click Here](https://www.designcise.com/web/tutorial/how-to-fix-parameter-scheduleexpression-is-not-valid-serverless-error)
+The default schedule is for every Wednesday.
